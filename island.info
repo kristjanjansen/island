@@ -1,0 +1,4 @@
+name = island
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = style.css
