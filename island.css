@@ -226,5 +226,9 @@ ul.inline li {
   display: inline-block;
   vertical-align: middle;
 }
-.submitted {
+#comments h2.title {
+  display: none;
+}
+#comments h2.comment-form {
+  display: block;
 }
