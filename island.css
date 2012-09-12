@@ -199,11 +199,16 @@ ul.inline li {
 .block-menu ul li.leaf {
  list-style: none;
 }
-.view .item-list li {
+.view .item-list ul li {
   display: inline-block;
   list-style: none;
- 
-  /* IE */
+  margin: 0 10px 10px 0;
+  vertical-align: top;
   zoom: 1;
   *display: inline;
 }
+.view-images .view-content .item-list ul li {
+  width: 165px;
+  height: 220px;
+}
+  
