@@ -232,3 +232,11 @@ ul.inline li {
 #comments h2.comment-form {
   display: block;
 }
+.submitted a {
+  color: gray;
+  text-decoration: underline;
+}
+.comment-unpublished {
+  background: none;
+  opacity: 0.5;
+}
