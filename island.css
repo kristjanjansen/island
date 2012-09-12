@@ -173,6 +173,9 @@ ul.primary {
   line-height: 2em;
   margin-bottom: 1.5em;
 }
+.item-list ul li {
+  margin: 0 5px 0 0;
+}
 ul.inline li {
   padding: 0 0.5em 0 0;
 }
