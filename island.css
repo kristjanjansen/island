@@ -139,8 +139,9 @@ td {
 .node {
   margin-bottom: 1.5em;
 }
-.comment {
+.comment .links.inline {
   margin-bottom: 1.5em;
+  display: block;
 }
 .comment a.permalink {
   display: none;
@@ -211,4 +212,19 @@ ul.inline li {
   width: 165px;
   height: 220px;
 }
-  
+.comment {
+  border-top: 1px solid #eee;
+  padding-top: 1em;
+}
+.comment h3 {
+  display: none;
+}
+.user-picture {
+  margin-right: 5px;
+}
+.user-picture, .submitted {
+  display: inline-block;
+  vertical-align: middle;
+}
+.submitted {
+}
