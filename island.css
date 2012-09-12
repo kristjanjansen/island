@@ -192,3 +192,18 @@ ul.inline li {
   color: #888;
   font-weight: normal;
 }
+
+.block-menu li {
+  float: left;
+}
+.block-menu li.last {
+  clear: both;
+}
+.block-menu ul li.leaf {
+ list-style: none;
+}
+.view .item-list li {
+  float: left;
+  list-style: none;
+}  
+}
