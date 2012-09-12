@@ -193,17 +193,17 @@ ul.inline li {
   font-weight: normal;
 }
 
-.block-menu li {
-  float: left;
-}
-.block-menu li.last {
-  clear: both;
+.region-header .block-menu li {
+  display: inline;
 }
 .block-menu ul li.leaf {
  list-style: none;
 }
 .view .item-list li {
-  float: left;
+  display: inline-block;
   list-style: none;
-}  
+ 
+  /* IE */
+  zoom: 1;
+  *display: inline;
 }
